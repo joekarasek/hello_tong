@@ -1,27 +1,42 @@
 {
-  "title" : "Great Pryor Dentist - Dr. Lori Smith",
-  "description" : "Dr. Lori Smith is one of Pryor's most loved dentists. Now Welcoming New Patients! Join us for a $45 Limited Time New Patient Special Offer. Read our patient reviews!",
-  "keywords" : "dr. lori smith, pryor dentist, family dentist, family dentistry, general dentist, cosmetic dentistry, cosmetic dentist, smile whitening, crowns and bridges, implant dentistry",
-  "mainDocter" : "Dr. Lori Smith",
-  "mainDoctor" : "Dr. Lori Smith",
-  "newPhone" : "+18883842882",
-  "newPhoneNoBreak" : "(888)&nbsp;384-2882",
-  "existingPhone" : "+19188257645",
-  "existingPhoneNoBreak" : "(918)&nbsp;825-7645",
-  "addressFirst" : "13 South Coo-Y-Yah",
-  "addressLast" : "Pryor OK 74361",
+  "title" : "Great Gaithersburg Pediatric Dentist - Dr. James Tong",
+  "description" : "Dr. James Tong is one of Gaithersburg’s most loved pediatric dentists. Now Welcoming New Patients!",
+  "keywords" : "dr. james tong, james tong dmd, gaithersburg pediatric dentist, pediatric dentist in gaithersburg, children's dentistry, kids dentist, child dentist, dentistry for teens",
+  "mainDoctor" : "Dr. James Tong",
+  "newPhone" : "+18886150491",
+  "newPhoneNoBreak" : "(888)&nbsp;615-0491",
+  "existingPhone" : "+13012161781",
+  "existingPhoneNoBreak" : "(301)&nbsp;216-1781",
+  "addressFirst" : "803 Russell Ave., Suite 2A",
+  "addressLast" : "Gaithersburg, MD 20879",
   "birdeye" : "4076240005",
   "birdeyeScript" : "https://birdeye.com/embed/v4/147144830655567/3/4076240005",
   "insuranceLink" : "https://lori-smith-dds.illumitrac.com/#programs",
-  "googleMap" : "https://www.google.com/maps/place/Lori+Smith,+DDS/@36.3054821,-95.3133126,15z/data=!4m5!3m4!1s0x0:0x33337d90e21225d9!8m2!3d36.3054821!4d-95.3133126",
+  "googleMap" : "https://www.google.com/maps?ll=39.155159,-77.210143&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=803+Russell+Ave+Gaithersburg,+MD+20879",
   "socialMediaLinks": [
     {
-      "media": "google-plus",
-      "link": "https://www.google.com/maps/place/Lori+Smith,+DDS/@36.3054821,-95.3155013,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x33337d90e21225d9!8m2!3d36.3054821!4d-95.3133126!9m1!1b1"
+      "media": "facebook",
+      "link": "https://www.facebook.com/childrensdentalcaremd"
     },
     {
-      "media": "facebook",
-      "link": "https://www.facebook.com/Lori-Smith-DDS-Dentistry-for-Children-Adults-163582010320225/"
+      "media": "google-plus",
+      "link": "https://plus.google.com/+ChildrensDentalCareGaithersburg/about"
+    },
+    {
+      "media": "youTube",
+      "link": "http://www.youtube.com/channel/UCpON6b6mtsKUzQEfgpGjmxQ/feed"
+    },
+    {
+      "media": "zocdoc",
+      "link": "http://www.zocdoc.com/dentist/james-tong-dmd-80356?LocIdent=49291&reason_visit=12&insuranceCarrier=-1&insurancePlan=-1"
+    },
+    {
+      "media": "yelp",
+      "link": "http://www.yelp.com/biz/childrens-dental-care-gaithersburg"
+    },
+    {
+      "media": "angiesList",
+      "link": "http://my.angieslist.com/angieslist/Review/8285907?id=8285907"
     }
   ]
 }
