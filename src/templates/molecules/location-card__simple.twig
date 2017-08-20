@@ -5,16 +5,16 @@
     {#</div>#}
 
     <div class="location-card__logo--wrapper">
-        <img  src="assets/smith-lori-logo-bottom.png" alt="{{ mainDoctor }}" class="location-card__logo">
+        <img  src="assets/tong-logo.svg" alt="{{ mainDoctor }}" class="location-card__logo">
     </div>
 
     <div class="location-card__content">
 
-        <h6 class="location-card__doctor">Lori Smith, <span class="location-card__doctor--title">DDS</span></h6>
+        <h6 class="location-card__doctor">James Y. Tong, <span class="location-card__doctor--title">DMD, MS, PhD</span></h6>
 
         {#<p class="location-card__doctor-sub">GENERAL & COSMETIC DENTIST</p>#}
 
-        <p class="location-card__address">13 South Coo-Y-Yah<br>Pryor OK 74361</p>
+        <p class="location-card__address">803 Russell Ave., Suite 2A<br>Gaithersburg, MD 20879</p>
 
         <a href="{{ googleMap }}" target="_blank" class="link-no-style ">
             <h6 class="location-card__map-link underline">Click to view map & directions</h6>
@@ -31,6 +31,8 @@
             classes: "btn--style-two location-card__btn"
         } %}
 
-        {% include 'atoms/hours-table.twig' %}
+        {# {% include 'atoms/hours-table.twig' %} #}
+
+        {% include 'molecules/social-media-links.twig' %}
     </div> 
 </div>

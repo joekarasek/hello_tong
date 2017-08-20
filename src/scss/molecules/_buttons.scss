@@ -22,18 +22,28 @@ button.btn {
   }
 
   &.btn--style-two {
+    border: none;
+    border-radius: 0;
     background: none;
-    background-color: #06b7d7;
-    border: solid 2px #fff;
-    font-family: $ff-lato;
-    //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
-
-    @include font-size(16px, 16px, 15px, 14px, 13px);
+    height: 80px;
+    width: 270px;
+    background-image: url(/assets/cta-bird.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 
     &:hover,
     &:focus {
-      background-color: darken(#06b7d7, 15%);
-      //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.d46);
+      background-image: url(/assets/cta-bird-roll.png);
+    }
+
+    @media (min-width: 768px) {
+      height: 100px;
+      width: 370px;
+    }
+
+    @media (min-width: 992px) {
+      height: 160px;
+      width: 570px;
     }
   }
 

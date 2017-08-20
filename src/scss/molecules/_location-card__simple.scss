@@ -3,9 +3,9 @@
   justify-content: center;
   flex-direction: column;
   //background: $c-white;
-  //margin: 30px 0;
-  padding-top: 30px;
-  //padding-bottom: 30px;
+  margin: 30px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   @media (max-width: $width-md) {
     margin-bottom: 5px;
@@ -31,15 +31,15 @@
     &--wrapper {
       //background-color: #323437;
       text-align: center;
-      // padding-top: 10px;
-      // padding-bottom: 20px;
+      padding-top: 30px;
+      padding-bottom: 20px;
 
       @media (max-width: $width-md) {
         background: none;
       }
     }
     //max-height: 115px;
-    width: 300px;
+    width: 437px;
   }
 
   &__content {
@@ -49,37 +49,35 @@
   }
 
   &__doctor {
-    color: #2f1d0f;
+    color: #5e308b;
     font-weight: 700;
     line-height: 1;
     // margin-top: 10px;
     margin-bottom: 10px;
     font-family: $ff-lato;
 
-    @include font-size(36px, 34px, 32px, 30px, 28px);
+    @include font-size(28px, 28px, 24px, 28px, 21px);
 
     &--title {
-      color: #2f1d0f !important;
+      color: #5e308b !important;
       font-weight: 400;
+
+      @include font-size(24px, 24px, 20px, 24px, 18px);
     }
   }
 
   &__address {
     color: #2f1d0f;
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 25px;
-    font-family: $ff-lato;
-    font-weight: 700;
   }
 
   &__map-link {
-    color: #008aa3;
+    color: #fa6d22;
     text-decoration: underline;
     font-size: 16px;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    font-family: $ff-lato;
-    font-weight: 700;
   }
 
   &__new-patient-text {
@@ -87,15 +85,13 @@
     font-size: 18px;
     margin-bottom: 0;
     line-height: 1;
-    font-family: $ff-open;
   }
 
   &__new-patient-number {
     display: block;
     font-size: 40px;
     font-weight: 900;
-    color: #2f1d0f;
-    font-family: $ff-lato;
+    color: #5e308b;
     margin-top: 5px;
     margin-bottom: 5px;
     line-height: 1;
@@ -166,25 +162,25 @@
     padding-bottom: 15px;
   }
 
-  .hours-table {
-    padding-bottom: 20px;
+  // .hours-table {
+  //   padding-bottom: 20px;
 
-    h5 {
-      line-height: 1;
-      margin-bottom: 0;
-      font-weight: 700;
-      font-size: 21px;
-      color: #4b382c;
-      font-family: $ff-lato;
-      padding-bottom: 10px;
-    }
+  //   h5 {
+  //     line-height: 1;
+  //     margin-bottom: 0;
+  //     font-weight: 700;
+  //     font-size: 21px;
+  //     color: #4b382c;
+  //     font-family: $ff-lato;
+  //     padding-bottom: 10px;
+  //   }
 
-    p {
-      color: #4b382c;
-      font-size: 18px;
-      line-height: 1;
-      margin: 0 auto;
-      font-family: $ff-lato;
-    }
-  }
+  //   p {
+  //     color: #4b382c;
+  //     font-size: 18px;
+  //     line-height: 1;
+  //     margin: 0 auto;
+  //     font-family: $ff-lato;
+  //   }
+  // }
 }

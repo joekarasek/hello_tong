@@ -2,6 +2,8 @@
 #google-map,
 #google-map5,
 .google-map iframe {
+  border: 2px solid #fa6d22;
+  border-radius: 15px;
   height: 200px !important;
 
   @media (min-width: $width-xs) {
@@ -9,14 +11,18 @@
   }
 
   @media (min-width: $width-sm) {
-    height: 888px !important;
+    height: 400px !important;
   }
 
   @media (min-width: $width-md) {
-    height: 888px !important;
+    height: 400px !important;
   }
 
   @media (min-width: $width-lg) {
-    height: 888px !important;
+    height: 500px !important;
   }
+}
+
+#google-map5 > div {
+  border-radius: 30px;
 }

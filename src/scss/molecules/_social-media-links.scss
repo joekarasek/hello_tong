@@ -1,8 +1,8 @@
-@include social-media-link('facebook');
-@include social-media-link('yelp');
-@include social-media-link('instagram');
-@include social-media-link('youtube');
-@include social-media-link('google-plus');
+// @include social-media-link('facebook');
+// @include social-media-link('yelp');
+// @include social-media-link('instagram');
+// @include social-media-link('youtube');
+// @include social-media-link('google-plus');
 
 .si-youtube:hover,
 .si-colored.si-youtube {
@@ -12,6 +12,11 @@
 .social-media-links {
   display: flex;
   justify-content: center;
+
+  @media (min-width: 1200px) {
+    justify-content: flex-start;
+    padding-left: 60px;
+  }
 }
 
 .social-icon {
@@ -24,6 +29,11 @@
 
 #footer .si-facebook:hover,
 .si-colored.si-facebook {
+  background: none !important;
+}
+
+#location .si-yelp:hover,
+.si-colored.si-yelp {
   background: none !important;
 }
 

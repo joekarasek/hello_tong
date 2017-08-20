@@ -1,15 +1,36 @@
 {% include 'molecules/slab__care-credit.twig' %}
 <section id="section-location">
-    <div class="location location__two-column">
-        <div class="location__card--wrapper">
+    <div class="container">
+        <div class="location location__two-column">
+            <div class="location__card--wrapper">
 
-            {% include 'molecules/location-card__simple.twig' %}
+                {% include 'molecules/location-card__simple.twig' %}
 
-        </div>
-        <div class="location__map">
+            </div>
+            <div class="location__map">
 
-            {% include 'atoms/google-map.twig' %}
+                {% include 'atoms/google-map.twig' %}
+                
+                <div class="row center">
+                    <h4 class="location__address-two-title">Our Other Locations:</h4>
+                    <div class="col-lg-6 center">
+                        <h5 class="location__address-two">Highlands Dental Care</h5>
+                        <h5 class="location__address-two">(301) 515-5100</h5>
+                        <h5 class="location__address-two">23206 Brewers Tavern Way</h5>
+                        <h5 class="location__address-two">Clarksburg, MD 20871</h5>
+                        <h5 class="location__address-two">highlandsdentalcare.com</h5>
+                    </div>
+                     
+                    <div class="col-lg-6 center location__address-two--two">
+                        <h5 class="location__address-two">Tong Dental Care</h5>
+                        <h5 class="location__address-two">(301) 216-1780</h5>
+                        <h5 class="location__address-two">903 Russell Avenue #200</h5>
+                        <h5 class="location__address-two">Gaithersburg, MD 20879</h5>
+                        <h5 class="location__address-two">tongdentalcare.com</h5>
+                    </div>
+                </div>
 
+            </div>
         </div>
     </div>
 </section>
