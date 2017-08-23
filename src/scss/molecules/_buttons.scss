@@ -1,13 +1,13 @@
 a.btn,
 button.btn {
   font-family: $ff-lato;
-  font-weight: 700 !important;
+  // font-weight: 700 !important;
   background-color: #ffa300;
   color: #fff;
   border-radius: 50px;
   border: solid 3px #fff;
-  padding: 10px 50px;
-  text-transform: uppercase;
+  // padding: 10px 50px;
+  // text-transform: uppercase;
   //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
   @include font-size(17px, 16px, 16px, 15px, 15px);
@@ -49,22 +49,23 @@ button.btn {
 
   &.btn--style-three {
     background-image: none;
-    background-color: #4b382c;
-    color: #fff;
-    border-color: #06b7d7;
+    background-color: rgba(255, 255, 255, 0.28);
+    color: #3c6ecc;
+    border-color: #3c6ecc;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
-    @include font-size(16px, 16px, 14px, 14px, 14px);
+    @include font-size(20px, 20px, 16px, 16px, 16px);
 
     &:hover,
     &:focus {
-      background-color: lighten(#4b382c, 10%);
+      transition: background-color 0.3s ease;
+      background-color: rgba(255, 255, 255, 0.65);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.d46);
     }
   }
 
   &.shadowed {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
 
   &.form-btn {

@@ -1,23 +1,38 @@
 #section-forms {
-  background-image: url('/assets/blue-pattern-bg.svg');
-  background-size: 100px !important;
-  background-repeat: repeat;
-  padding-top: 45px;
-  border-top: solid 2px #fff;
-  border-bottom: solid 2px #fff;
+  // background-image: url('/assets/clouds-bg.jpg');
+  padding-top: 25px;
+  background:
+    /* top, transparent white to blue */
+    linear-gradient(
+      rgba(255, 255, 255, 0.19),
+      rgba(0, 189, 255, 0.19)
+    ),
+    /* bottom, image */
+    url('/assets/clouds-bg.jpg');
+  background-size: cover;
+
+  .acrobat {
+    color: #3e3e3e !important;
+    text-decoration: underline !important;
+    font-weight: 700;
+
+    @include link-color(#3e3e3e);
+  }
 
   .heading {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
 
     &__title {
-      font-weight: 700px;
-      color: #4b382c;
+      color: #fa6d22;
       line-height: 1;
       padding-bottom: 0;
       padding-top: 10px;
       margin-bottom: 0;
+    }
+
+    &__copy {
+      color: #3e3e3e;
     }
   }
 
@@ -38,6 +53,11 @@
       &a:hover {
         color: #3e3e3e;
       }
+
+      &--healthy {
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
     }
 
     &__btn-wrapper {
@@ -47,19 +67,19 @@
 
   .btn {
     margin: 10px 0;
-    padding: 10px 20px;
-    width: 270px;
+    padding: 10px 0;
+    width: 230px;
   }
 
   .line-break {
     display: none;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .btn {
-      width: 360px;
-      margin-left: 15px;
-      margin-right: 15px;
+      width: 320px;
+      // margin-left: 15px;
+      // margin-right: 15px;
     }
 
     .forms__btn-wrapper {
