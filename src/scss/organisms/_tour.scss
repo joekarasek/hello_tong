@@ -1,10 +1,11 @@
 .tour {
-  background-image: url(/assets/tour-bg.jpg);
-  background-size: cover;
-  background-position: top center;
+  // background-image: url(/assets/tour-bg.jpg);
+  // background-size: cover;
+  // background-position: top center;
+  background-color: #7941a3;
   color: #fff;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 15px;
+  padding-bottom: 65px;
   position: relative;
 
   .owl-carousel .owl-nav [class*=owl-],
@@ -16,9 +17,9 @@
     margin-bottom: 25px;
 
     &__title {
-      color: #4b382c;
-      margin-bottom: 10px;
-      font-weight: 700;
+      color: #ffd401;
+      margin-bottom: 35px;
+      letter-spacing: 3.5px;
     }
 
     &__copy {
@@ -44,7 +45,8 @@
 
   &--full-width,
   .owl-carousel {
-    position: static !important;
+    // this puts the arrows outside the carousel
+    // position: static !important;
   }
 
   .owl-nav {
@@ -57,39 +59,40 @@
   }
 
   img {
-    max-height: 187px !important;
+    // max-height: 187px !important;
     width: auto !important;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 7px;
   }
 
-  @media (min-width: 550px) {
-    img {
-      max-height: 293px !important;
-    }
-  }
+  // @media (min-width: 550px) {
+  //   img {
+  //     max-height: 293px !important;
+  //   }
+  // }
 
-  @media (min-width: 768px) {
-    img {
-      max-height: 480px !important;
-    }
-  }
+  // @media (min-width: 768px) {
+  //   img {
+  //     max-height: 480px !important;
+  //   }
+  // }
 
-  @media (min-width: 992px) {
-    img {
-      max-height: 627px !important;
-    }
-  }
+  // @media (min-width: 992px) {
+  //   img {
+  //     max-height: 627px !important;
+  //   }
+  // }
 
-  @media (min-width: 1200px) {
-    img {
-      max-height: 667px !important;
-    }
-  }
+  // @media (min-width: 1200px) {
+  //   img {
+  //     max-height: 667px !important;
+  //   }
+  // }
 
-  @media (max-width: 767px) {
-    .container {
-      width: inherit !important;
-    }
-  }
+  // @media (max-width: 767px) {
+  //   .container {
+  //     width: inherit !important;
+  //   }
+  // }
 }
