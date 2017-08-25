@@ -98,10 +98,6 @@ h2 {
   font-family: $ff-pacifico;
 
   @include h2();
-
-  @media (max-width: $width-xs) {
-    line-height: 1.1;
-  }
 }
 
 @mixin h3() {

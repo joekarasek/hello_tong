@@ -74,6 +74,54 @@
             }
         %}
 
+        <section id="section-faqs">
+            <div class="container">
+                <div class="row">
+                    <div class="heading center">
+                        <h2 class="heading__title">Frequently Asked Questions</h2>
+                        <div class="heading__sub">Select a question below to learn more.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="faq" role="tablist" id="faq-list">
+                        <div class="faq__accordion" role="tab" data-toggle="collapse" data-target="#faq-1">
+                            <img src="/assets/faq-icon.png" alt="Icon to open FAQ accordion">
+                            <h5 class="faq__header">Does Your Office Participate in the Maryland Health Smiles Dental Program?</h5>
+                        </div>
+                        <div class="faq__body collapse" role="tabpanel" id="faq-1">
+                            <p class="faq__copy">Yes we do!</p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <div class="faq__accordion" role="tab" data-toggle="collapse" data-target="#faq-2">
+                            <img src="/assets/faq-icon.png" alt="Icon to open FAQ accordion">
+                            <h5 class="faq__header">What dental services are covered by the Maryland Healthy Smiles Dental Program?</h5>
+                        </div>
+                        <div class="faq__body collapse" role="tabpanel" id="faq-2">
+                            <p class="faq__copy">Maryland Healthy Smiles Dental Program covers most dental care. This includes exams, x-rays, fillings, cleanings and fluoride treatments. Our practice can review what dental services your child needs and determine if they are covered for you.</p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <div class="faq__accordion" role="tab" data-toggle="collapse" data-target="#faq-3">
+                            <img src="/assets/faq-icon.png" alt="Icon to open FAQ accordion">
+                            <h5 class="faq__header">What if I need a ride to get to a dental appointment?</h5>
+                        </div>
+                        <div class="faq__body collapse" role="tabpanel" id="faq-3">
+                            <p class="faq__copy">Maryland Healthy Smiles Dental Program may cover a ride to dental
+                                appointments. Call the Transportation Coordinator at your Local Health Department (LHD)
+                                for assistance. If you do not know how to contact your LHD, call the Maryland Healthy
+                                Smiles Program Customer Service at: (888) 696-9596 between the hours of 7:30am to 6:00pm
+                                or visit the website at <a href="http://www.dentaquestgov.com" target="_blank">www.dentaquestgov.com</a>.</p>
+                            <p class="faq__copy">If you need additional information regarding transit schedules, bus
+                                routes and transportation options - please visit our "New Patients" page and download
+                                the available pdf.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="faq__image" src="/assets/faq.jpg" alt="Very happy children with great smiles">
+        </section>
+
         {% include 'organisms/tour.twig' %}
         
         {% include 'organisms/forms.twig' %}
