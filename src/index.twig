@@ -63,9 +63,8 @@
 
         {# {% include 'organisms/insurance.twig' %} #}
 
-        {# {% include 'organisms/services.twig' %} #}
+         {% include 'organisms/services.twig' %}
 
-        {# {% include 'organisms/smile-gallery.twig' %} #}
         {% include 'molecules/cta__two-to-one.twig' with {
             id: 'cta-three',
             existingPatients: false,
@@ -84,7 +83,7 @@
                 </div>
                 <div class="row">
                     <div class="faq" role="tablist" id="faq-list">
-                        <div class="faq__accordion" role="tab" data-toggle="collapse" data-target="#faq-1">
+                        <div class="faq__accordion collapsed" role="tab" data-toggle="collapse" data-target="#faq-1">
                             <img src="/assets/faq-icon.png" alt="Icon to open FAQ accordion">
                             <h5 class="faq__header">Does Your Office Participate in the Maryland Health Smiles Dental Program?</h5>
                         </div>
@@ -93,7 +92,7 @@
                         </div>
                     </div>
                     <div class="faq">
-                        <div class="faq__accordion" role="tab" data-toggle="collapse" data-target="#faq-2">
+                        <div class="faq__accordion collapsed" role="tab" data-toggle="collapse" data-target="#faq-2">
                             <img src="/assets/faq-icon.png" alt="Icon to open FAQ accordion">
                             <h5 class="faq__header">What dental services are covered by the Maryland Healthy Smiles Dental Program?</h5>
                         </div>
@@ -102,7 +101,7 @@
                         </div>
                     </div>
                     <div class="faq">
-                        <div class="faq__accordion" role="tab" data-toggle="collapse" data-target="#faq-3">
+                        <div class="faq__accordion collapsed" role="tab" data-toggle="collapse" data-target="#faq-3">
                             <img src="/assets/faq-icon.png" alt="Icon to open FAQ accordion">
                             <h5 class="faq__header">What if I need a ride to get to a dental appointment?</h5>
                         </div>

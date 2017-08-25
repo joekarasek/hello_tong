@@ -1,59 +1,60 @@
 <section id="section-services">
 
-    <div class="heading">
-        <div class="container">
-            <h2 class="heading__title">Our Services</h2>
-            {#<h4 class="heading__byline">Learn more about our treatments and services.</h4>#}
-            <p class="heading__copy">By actively preventing disease and decay through regular home care, professional
-                dental cleanings and regular exams, we’ll partner with you to maintain your healthy, beautiful smile.
-                Prevention is always better than treatment, so if it’s been a while since you’ve seen a dentist, please
-                give us a call&nbsp;or&nbsp;<a href="#" data-target="#requestAppointmentForm" data-toggle="modal">click&nbsp;to&nbsp;request&nbsp;an&nbsp;appointment.</a></p>
+    <div class="heading container center">
+        <h2 class="heading__title">Services We Offer</h2>
+        <h3 class="heading__sub">Select a service below for more information. Remember, prevention is always better than
+            treatment, so if it’s been a while since your child has seen a dentist, please give us a call or click to
+            <a href="#" data-target="#requestAppointmentForm" data-toggle="modal">request an appointment</a>.</h3>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="service-list">
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--cleanings">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Cleanings & Exams">
+                    <h3 class="service-list__title">Cleanings & Exams</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--crown">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Crowns">
+                    <h3 class="service-list__title">Crowns</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--care">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Home Care">
+                    <h3 class="service-list__title">Home Care</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--prevent">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Preventive Care">
+                    <h3 class="service-list__title">Preventive Care</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--pulp">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Pulpotomy">
+                    <h3 class="service-list__title">Pulpotomy</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--sealants">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Sealants and Fillings">
+                    <h3 class="service-list__title">Sealants and Fillings</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--sedation">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Sedation Dentistry">
+                    <h3 class="service-list__title">Sedation Dentistry</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--space">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Space Maintainers">
+                    <h3 class="service-list__title">Space Maintainers</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--xrays">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Digital X-Rays">
+                    <h3 class="service-list__title">Digital X-Rays</h3>
+                </li>
+                <li class="service-list__item" data-toggle="modal" data-target="#modal--post-op">
+                    <img src="/assets/services/service-icon.png" alt="Checkmark for Post Op Care">
+                    <h3 class="service-list__title">Post Op Care</h3>
+                </li>
+            </ul>
         </div>
     </div>
 
-    {% include 'molecules/services__carousel.twig' %}
-
-    <div class="services-part-two">
-        <div class="heading">
-            <div class="container">
-                <h2 class="heading__title">More Services</h2>
-                <p class="heading__copy">Select a link below to learn more.</p>
-            </div>
-        </div>
-
-        <div class="services-second-carousel full-width-wrapper hidden-xs">
-            <div class="container full-width">
-                <div class="owl-carousel js-services-carousel--two">
-                    {% for service in services %}
-                        <div class="services-carousel__item">
-                            <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><div class="services-carousel--image"><img src="assets/services/{{ service.image }}" alt="Service Image"></div></a>
-                            <div class="services-carousel__title">
-                                <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><h5>{{ service.title }}</h5></a>
-                                <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><h6>Learn More</h6></a>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-        <div class="services-second-carousel--mobile full-width-wrapper hidden-sm hidden-md hidden-lg">
-            <div class="container full-width">
-                <div class="owl-carousel js-services-carousel--two-mobile">
-                    {% for service in services if not service.featured %}
-                        <div class="services-carousel__item">
-                            <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><div class="services-carousel--image"><img src="assets/services/{{ service.image }}" alt="Service Image"></div></a>
-                            <div class="services-carousel__title">
-                                <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><h5>{{ service.title }}</h5></a>
-                                <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><h6>Learn More</h6></a>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-    </div>
+    <img src="/assets/services.jpg" alt="Happy clients of Dr. Tong's services">
 
     {% include 'molecules/services__modals.twig' %}
 

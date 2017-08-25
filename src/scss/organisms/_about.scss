@@ -99,11 +99,17 @@
     &__accordion {
       background-color: #3a9eb2;
       border: solid 1px #fff;
-      border-radius: 5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
       display: flex;
       align-items: center;
       padding: 15px;
       margin-top: 30px;
+
+      &.collapsed {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
 
       @media (min-width: 768px) {
         padding: 15px 45px;
@@ -122,15 +128,16 @@
     &__body {
       background-color: #fff;
       padding: 0 30px;
-      border-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
     }
 
     &__copy {
       margin-bottom: 0;
-      padding-bottom: 15px;
+      padding-bottom: 20px;
 
       &:first-child {
-        padding-top: 20px;
+        padding-top: 15px;
       }
 
       a {

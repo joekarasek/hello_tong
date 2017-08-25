@@ -3,88 +3,55 @@
     {
       "doubleWide": false,
       "featured": false,
-      "title": "Implant Dentistry",
-      "titleMobil": "Implant Dentistry",
-      "titleFull": "Implant Dentistry",
-      "image": "implant.jpg",
-      "modalTarget": "implant",
-      "text": ["Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.",
-        "Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
-      "title": "Composite Fillings",
-      "titleFull": "Composite Fillings",
-      "image": "composites.jpg",
-      "modalTarget": "composites",
-      "text": ["The common silver filling contains mercury. Dr. Smith uses the highest-quality biocompatible, tooth-colored restorations to create healthy, beautiful smiles.​ Since the composite material adheres directly to the tooth enamel, less preparation of the tooth is required before using it. This means it is more durable and provides a more natural-looking result."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
-      "title": "Smile Whitening",
-      "titleFull": "Smile Whitening",
-      "image": "whitening.jpg",
-      "modalTarget": "whitening",
-      "text": ["Many everyday things like coffee, tea and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.",
-        "Plastic whitening trays will be made from models of your teeth. You will then place a special whitening gel in each tray and wear the trays in your mouth for several hours per day. (Many patients wear their trays after dinner and before bed.) A significant change in tooth color is usually seen in just four to six weeks."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
-      "title": "Preventive Care",
-      "titleFull": "Prevention & Gum Care",
-      "image": "preventive.jpg",
-      "modalTarget": "preventive",
-      "text": ["By actively preventing disease and decay through regular home care, professional dental cleanings and regular exams, you will maintain a healthy, beautiful smile for life."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
-      "title": "Sealants",
-      "titleFull": "Sealants",
+      "title": "Sealants and Fillings",
+      "titleMobil": "Sealants and Fillings",
+      "titleFull": "Sealants and Fillings",
       "image": "sealants.jpg",
       "modalTarget": "sealants",
-      "text": ["Normal pits and grooves on the chewing surfaces of back teeth can trap food that can’t easily be removed with brushing. A sealant is a tough tooth-colored material that is designed to bond to tooth enamel. These sealants are painted on to the tooth surface to seal these pits and grooves and protect against decay. We recommend applying these to children’s teeth once they have permanent back teeth in place. They can also be useful to adults in some situations."]
+      "text": ["Normal pits and grooves on the chewing surfaces of back teeth can trap food that can't be removed by brushing or washed out by water or saliva. A sealant is a tough, plastic material designed to bond (stick) to tooth enamel.",
+        "Composite fillings are more than just attractive. They require minimal tooth preparation, in other words less healthy tooth structure is removed to restore the tooth. Also, a sealant can be placed over the remaining exposed grooves of the tooth to minimize the risk of decay on another area of the tooth."]
     },
     {
       "doubleWide": false,
       "featured": false,
       "title": "Digital X-Rays",
-      "titleFull": "Digital X-Rays (or Digital Radiography)",
-      "image": "digital-xray.jpg",
+      "titleMobil": "Digital X-Rays",
+      "titleFull": "Digital X-Rays",
+      "image": "xrays.jpg",
       "modalTarget": "xrays",
-      "text": ["Our use of digital x-ray technology reduces your radiation exposure and eliminates the use of chemicals. It’s better for you and the environment.",
-        "It's also easy for you to see what the doctor sees. Your digital x-ray can be seen on a computer screen located next to your dental chair. This helps you understand your needs and make informed choices about your treatment."]
+      "text": ["Dental x-rays or radiographs allow the dentist to see things about your oral health that cannot be seen by the naked eye. These items include cysts, cancerous and non-cancerous tumors, invisible decay that occurs between teeth, and the location of teeth that haven't grown all the way in.",
+        "Modern dental x-ray machines are very safe. We use only state-of-the-art, low radiation machines. The amount of radiation exposure your body receives on an airplane flight from Los Angeles to New York exceeds the amount of exposure you will receive from a modern dental x-ray machine. Contrast this minimal exposure with the risk of not finding an illness until it is too late, and you can see why we prescribe regular diagnostic x-rays."]
     },
     {
       "doubleWide": false,
-      "featured": true,
-      "title": "Smile Makeovers",
-      "titleFull": "Smile Makeovers",
-      "image": "cosmetic-mobile.jpg",
-      "modalTarget": "cosmetic",
-      "text": ["Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!"]
+      "featured": false,
+      "title": "Preventive Care",
+      "titleMobil": "Preventive Care",
+      "titleFull": "Preventive Care",
+      "image": "prevent.jpg",
+      "modalTarget": "prevent",
+      "text": ["Prevention is always better than treatment. Brush your teeth twice daily using any soft-bristled, ADA-approved tooth brush. We also recommend the use of modern electric tooth brushes such as Sonicare and Braun. Floss daily to remove plaque between teeth that you can't reach with regular brushing.",
+        "Always rinse thoroughly with water after brushing (or after meals if you are unable to brush.) You may occasionally use a mouthwash to rinse. Children may benefit from the use of ACT fluoride rinse, to help prevent cavities from forming in between the teeth."]
     },
     {
       "doubleWide": false,
-      "featured": true,
-      "title": "Sedation Dentistry",
-      "titleFull": "Sedation Dentistry",
-      "image": "sedation-mobile.jpg",
-      "modalTarget": "sedation",
-      "text": ["Sedation dentistry is an excellent treatment for patients with extensive dental needs, or who are concerned about anxiety, difficulty getting numb, or sensitive teeth."]
+      "featured": false,
+      "title": "Crowns",
+      "titleMobil": "Crowns",
+      "titleFull": "Crowns",
+      "image": "crown.jpg",
+      "modalTarget": "crown",
+      "text": ["A crown (often called a cap) covers the tooth and restores it to its original shape and size. Decay is removed and cleaned from the tooth and a preformed crown is placed over the tooth. Unlike adult crowns, in which the crown is made to fit the tooth, which requires two appointments, baby crowns are placed in one visit, because the tooth is prepared to fit the crown."]
     },
     {
       "doubleWide": false,
-      "featured": true,
-      "title": "Family Care",
-      "titleFull": "Care for the Family Care",
-      "image": "family-care-mobile.jpg",
-      "modalTarget": "care",
-      "text": ["From toddlers to the elderly, our skilled dental team is familiar with the unique needs of every patient, no matter their age. Our goal is to help them develop great oral habits that will last them a lifetime.",
-        "Join us today and discover how our practice can help treat your entire family."]
+      "featured": false,
+      "title": "Space Maintainers",
+      "titleMobil": "Space Maintainers",
+      "titleFull": "Space Maintainers",
+      "image": "space.jpg",
+      "modalTarget": "space",
+      "text": ["When your child prematurely loses a baby tooth, the use of a space maintainer may be used. A space maintainer -- a combination of bands and wires designed to hold the remaining teeth in a position that will allow the future permanent tooth to erupt in the proper location."]
     }
   ]
 }
