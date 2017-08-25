@@ -6,6 +6,8 @@
 #}
 <div class="cta {{ classes ?: '' }}" {% if id %}id="{{ id }}"{% endif %}>
     <div class="container center">
+        <div class="row">
+            <h5 class="cta__welcoming hidden-sm hidden-md hidden-lg">Now Welcoming New Patients!</h5>
         <div class="flex-wrapper">
             {# item one #}
             <div class="cta__new flex-wrapper__item">
@@ -29,5 +31,6 @@
             <p class="cta__existing-patient hidden-md hidden-lg">Existing Patients Call:<br> {% include 'atoms/existing-patient-number.twig' %}</p>
             <p class="cta__existing-patient hidden-xs hidden-sm">Existing patients of our practice call:  {% include 'atoms/existing-patient-number.twig' %}</p>
         {% endif %}
+    </div>
     </div>
 </div>

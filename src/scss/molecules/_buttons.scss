@@ -25,20 +25,21 @@ button.btn {
     border: none;
     border-radius: 0;
     background: none;
-    height: 80px;
-    width: 270px;
-    background-image: url(/assets/cta-bird.png);
+    height: 90px;
+    width: 300px;
+    background-image: url(/assets/cta-bird-mobile.png);
     background-size: contain;
     background-repeat: no-repeat;
 
-    &:hover,
-    &:focus {
-      background-image: url(/assets/cta-bird-roll.png);
-    }
-
     @media (min-width: 768px) {
+      background-image: url(/assets/cta-bird.png);
       height: 100px;
       width: 370px;
+
+      &:hover,
+      &:focus {
+        background-image: url(/assets/cta-bird-roll.png);
+      }
     }
 
     @media (min-width: 992px) {
