@@ -52,7 +52,7 @@
         {# {% include 'organisms/specials--three-card.twig' %} #}
 
          {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'cta-two',
+            id: 'cta-three',
             existingPatients: false,
             shadow: false,
             classes: ""
@@ -65,13 +65,30 @@
 
          {% include 'organisms/services.twig' %}
 
-        {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'cta-three',
-            existingPatients: false,
-            shadow: false,
-            classes: ""
-            }
-        %}
+        <div class="cta " id="cta-two">
+            <div class="container center">
+                <div class="row">
+                    <h5 class="cta__welcoming hidden-sm hidden-md hidden-lg">Now Welcoming New Patients!</h5>
+                    <div class="flex-wrapper">
+                        <div class="cta__new flex-wrapper__item">
+                            <h5 class="cta__new-text allow-orphan">New Patient Hotline</h5>
+                            <h2 class="cta__new-number allow-orphan">
+                                <a href="tel:+18886150491" class="phone-number phone-number--new">(888)&nbsp;615-0491</a>
+                            </h2>
+                        </div>
+                        <div class="vertical-break"></div>
+                        <div class="cta__btn flex-wrapper__item">
+                            <a href="#" class="btn btn--style-two" data-target="#requestAppointmentForm" data-toggle="modal"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="medicaid">
+                <div class="container center">
+                    <p class="medicaid__text">Patients without medicaid should visit <a href="https://www.tongdentalcare.com/" class="medicaid__text-link" target="_blank">tongdentalcare.com</a>  </p>
+                </div>
+            </div>
+        </div>
 
         <section id="section-faqs">
             <div class="container">
