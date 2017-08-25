@@ -37,3 +37,21 @@ iframe[src^="https://birdeye"] {
     max-height: 500px;
   }
 }
+
+.medicaid {
+  padding-top: 15px;
+  background-color: #8e3ccc;
+  line-height: 1.4;
+
+  &__text {
+    font-weight: 900;
+    color: #ffd401;
+
+    @include font-size(20px, 18px, 18px, 16px, 16px);
+
+    &-link {
+      color: #ffd401;
+      text-decoration: underline !important;
+    }
+  }
+}

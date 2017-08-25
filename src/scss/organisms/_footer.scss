@@ -28,24 +28,25 @@
     }
   }
 
+  @media screen and (max-width: $width-md) {
+    text-align: center;
+  }
+
   .medicaid {
     padding-top: 15px;
     background-color: #8e3ccc;
 
     &__text {
-      font-size: 20px;
       font-weight: 900;
       color: #ffd401;
+
+      @include font-size(20px, 18px, 18px, 16px, 16px);
 
       &-link {
         color: #ffd401;
         text-decoration: underline !important;
       }
     }
-  }
-
-  @media screen and (max-width: $width-md) {
-    text-align: center;
   }
 
   .footer-padding {
