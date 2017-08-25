@@ -104,7 +104,7 @@
     slideBy: 1,
     responsive: {
       550: {
-        items: 3
+        items: 2
       },
       992: {
         items: 4

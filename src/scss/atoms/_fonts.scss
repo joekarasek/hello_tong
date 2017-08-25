@@ -13,7 +13,8 @@ body {
 p {
   font-family: $ff-lato;
   margin-bottom: $spacing-sm;
-  font-size: 18px;
+  font-size: 14px;
+  letter-spacing: -0.14%;
 }
 
 /// @group typography
@@ -139,7 +140,7 @@ h5 {
   font-weight: 400;
 
   @include headings();
-  @include font-size(18px, 18px, 16px, 16px, 16px);
+  @include font-size(32px, 30px, 35px, 25px, 25px);
 }
 
 .h6,
