@@ -1,4 +1,3 @@
-
 #google-map,
 #google-map5,
 .google-map iframe {
@@ -24,5 +23,9 @@
 }
 
 #google-map5 > div {
-  border-radius: 30px;
+  border-radius: 15px;
+
+  &.gm-style {
+    overflow: hidden;
+  }
 }

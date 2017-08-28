@@ -59,7 +59,57 @@
             }
          %}
 
-        {# {% include 'organisms/reviews.twig' %} #}
+        <section id="section-reviews" class="reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="heading center">
+                        <h2 class="heading__title">See What Parents Are Saying</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                    <div class="owl-carousel js-reviews-carousel">
+                        <div class="review center">
+                            <img src="/assets/slides/slide-stars.png" alt="Five Stars!" class="review__stars">
+                            <h3 class="review__title">“Very Thankful”</h3>
+                            <p class="review__copy">We are very thankful for Dr. Tong's willingness to try his best to save the teeth instead of simply extracting them.</p>
+                            <p class="review__reviewer">- Cathy Z.</p>
+                        </div>
+                        <div class="review center">
+                            <img src="/assets/slides/slide-stars.png" alt="Five Stars!" class="review__stars">
+                            <h3 class="review__title">“We Love It!”</h3>
+                            <p class="review__copy">We as a family love this office not for the good service but also for the family atmosphere that we see each and every time. Thanks for taking care of us.</p>
+                            <p class="review__reviewer">- Salah L.</p>
+                        </div>
+                        <div class="review center">
+                            <img src="/assets/slides/slide-stars.png" alt="Five Stars!" class="review__stars">
+                            <h3 class="review__title">“The Best!”</h3>
+                            <p class="review__copy">Absolutely, the Best!!! My family and I have been going to Dr. Tong for quite a while and have nothing but good things to say about his practice.</p>
+                            <p class="review__reviewer">- Michelle B.</p>
+                        </div>
+                        <div class="review center">
+                            <img src="/assets/slides/slide-stars.png" alt="Five Stars!" class="review__stars">
+                            <h3 class="review__title">"Great Service!"</h3>
+                            <p class="review__copy">I've been going to Dr. Tong for many years and have always experienced great service. It's a good place for children because they have an entire section of the office dedicated to toys and video games. The staff is always patient, kind, and attentive.</p>
+                            <p class="review__reviewer">- Angela W.</p>
+                        </div>
+                        <div class="review center">
+                            <img src="/assets/slides/slide-stars.png" alt="Five Stars!" class="review__stars">
+                            <h3 class="review__title">"The Best!"</h3>
+                            <p class="review__copy">I have been a patient with Dr. Tong since I was in 7th grade. As a kid, I moved around a lot so I've had experiences with many different dentists and Dr. Tong was by far the best.</p>
+                            <p class="review__reviewer">- Harland M.</p>
+                        </div>
+                        <div class="review center">
+                            <img src="/assets/slides/slide-stars.png" alt="Five Stars!" class="review__stars">
+                            <h3 class="review__title">"Love Coming Here!"</h3>
+                            <p class="review__copy">We love coming here. Dr Tong is our Family dentist and have been coming here for over a year .He takes care of our little boys teeth as well as us parents.</p>
+                            <p class="review__reviewer">- A.L.</p>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
 
         {# {% include 'organisms/insurance.twig' %} #}
 
@@ -98,8 +148,8 @@
                         <div class="heading__sub">Select a question below to learn more.</div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="faq" role="tablist" id="faq-list">
+                <div class="row" role="tablist">
+                    <div class="faq" id="faq-list">
                         <div class="faq__accordion collapsed" role="tab" data-toggle="collapse" data-target="#faq-1">
                             <img src="/assets/faq-icon.png" alt="Icon to open FAQ accordion">
                             <h5 class="faq__header">Does Your Office Participate in the Maryland Health Smiles Dental Program?</h5>
