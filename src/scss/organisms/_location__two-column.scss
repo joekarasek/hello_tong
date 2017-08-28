@@ -4,7 +4,10 @@
 }
 
 .location__address-two {
-  line-height: 0.6;
+  line-height: 1.4;
+  margin-bottom: 0;
+
+  @include font-size(22px, 22px, 21px, 23px, 21px);
 }
 
 .location__address-two-title {
