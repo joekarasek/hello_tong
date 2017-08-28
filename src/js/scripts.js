@@ -26,6 +26,32 @@
     autoHeight: true
   });
 
+  HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
+    items: 2,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2000,
+    autoplayHoverPause:false,
+    autoWidth: false,
+    nav: false,
+    dots: false,
+    margin: 40,
+    slideBy: 1,
+    responsive: {
+      550: {
+        items: 2
+      },
+      992: {
+        items: 4
+      },
+      1200: {
+        items: 5,
+        autoplay: false
+      }
+    }
+  });
+
   HelloWorldDevsTysonSteele.tourCarousel('.js-reviews-carousel', {
     items: 1,
     loop: true,
