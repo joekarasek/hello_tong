@@ -8,6 +8,10 @@
   padding-bottom: 65px;
   position: relative;
 
+  @media (min-width: 992px) {
+    padding-top: 60px;
+  }
+
   .owl-carousel .owl-nav [class*=owl-],
   .owl-carousel:hover .owl-nav .owl-next {
     opacity: 1;

@@ -11,6 +11,10 @@
     url('/assets/clouds-bg.jpg');
   background-size: cover;
 
+  @media (min-width: 992px) {
+    padding-top: 60px;
+  }
+
   .acrobat {
     color: #3e3e3e !important;
     text-decoration: underline !important;

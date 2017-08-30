@@ -2,6 +2,10 @@
   background-image: url(/assets/clouds-bg.jpg);
   padding: 45px 0 60px;
 
+  @media (min-width: 992px) {
+    padding-top: 60px;
+  }
+
   .owl-carousel .owl-nav [class*=owl-],
   .owl-carousel:hover .owl-nav .owl-next {
     opacity: 1;
